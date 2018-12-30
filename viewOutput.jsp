@@ -6,7 +6,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Insert title here</title>
 </head>
-<body>
+<body>  
 <%@ page import="java.util.*" import="com.Museum"%>
 <%String uname=(String)session.getAttribute("username"); %>
 <h1>Welcome <%=uname %></h1>
